@@ -8,7 +8,10 @@ interface CodeComparisonProps {
   optimizedCode: TACInstruction[];
 }
 
+
 const CodeComparison: React.FC<CodeComparisonProps> = ({ originalCode, optimizedCode }) => {
+ 
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <Card>
